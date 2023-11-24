@@ -10,5 +10,5 @@ public class LEDBulb extends Lamp {
 	public String toString() {
 		return "A led bulb consumes " + annualPowerConsumption() + " kWh per year.";
 	}
-	
+
 }

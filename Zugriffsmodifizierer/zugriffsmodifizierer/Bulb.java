@@ -6,9 +6,9 @@ public class Bulb extends Lamp {
 	public Bulb(int watt, int hoursPerDay) {
 		super(watt, hoursPerDay);
 	}
-	
+
 	public String toString() {
-		return "A bulb consumes " + annualPowerConsumption() + " kWh per year."; 
+		return "A bulb consumes " + annualPowerConsumption() + " kWh per year.";
 	}
 
 }

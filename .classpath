@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="Zugriffsmodifizierer"/>
 	<classpathentry kind="src" path="Brüche"/>
 	<classpathentry kind="src" path="BMI"/>
+	<classpathentry kind="src" path="Passwortklasse"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
