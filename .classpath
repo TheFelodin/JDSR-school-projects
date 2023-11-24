@@ -5,5 +5,6 @@
 	<classpathentry kind="src" path="Vererbung"/>
 	<classpathentry kind="src" path="Zugriffsmodifizierer"/>
 	<classpathentry kind="src" path="Brüche"/>
+	<classpathentry kind="src" path="BMI"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
