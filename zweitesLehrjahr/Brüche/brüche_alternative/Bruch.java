@@ -1,4 +1,4 @@
-package brueche;
+package brÃ¼che_alternative;
 
 public class Bruch {
 		private int zaehler;                   // 0
@@ -61,7 +61,7 @@ public class Bruch {
 			return 1;
 		}
 
-		// hier sollen Zaehler und Nenner gekürzt werden.
+		// hier sollen Zaehler und Nenner gekï¿½rzt werden.
 		// Tipp: speichern Sie zuerst das vorzeichen
 		private void kuerze(){
 			int vorzeichen = 1;

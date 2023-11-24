@@ -1,4 +1,4 @@
-package brueche;
+package brüche_alternative;
 
 public class BruchTest {
 

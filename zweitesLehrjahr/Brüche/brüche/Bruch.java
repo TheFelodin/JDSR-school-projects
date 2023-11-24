@@ -1,3 +1,4 @@
+package brüche;
 
 public class Bruch {
 	private int zaehler;

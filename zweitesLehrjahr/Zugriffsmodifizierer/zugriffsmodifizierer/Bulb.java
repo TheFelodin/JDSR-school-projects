@@ -1,3 +1,5 @@
+package zugriffsmodifizierer;
+
 public class Bulb extends Lamp {
 
 	// Konstruktor

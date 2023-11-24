@@ -1,3 +1,4 @@
+package zugriffsmodifizierer;
 
 public class LEDBulb extends Lamp {
 

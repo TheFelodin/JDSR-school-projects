@@ -1,3 +1,4 @@
+package zugriffsmodifizierer;
 public class Lamp {
 	
 	// Attribute
