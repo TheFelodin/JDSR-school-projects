@@ -1,4 +1,4 @@
-package brüche;
+package brueche;
 
 public class Bruch {
 	private int zaehler;
