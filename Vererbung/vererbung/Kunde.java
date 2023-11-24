@@ -1,4 +1,4 @@
-package personen;
+package vererbung;
 
 public class Kunde extends Person {
 	private int kundenID;

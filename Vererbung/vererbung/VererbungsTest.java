@@ -1,4 +1,4 @@
-package personen;
+package vererbung;
 
 public class VererbungsTest {
 

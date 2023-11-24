@@ -1,7 +1,7 @@
-package personen;
+package vererbung;
 
 public class Person{
-	// protected in private geändert, weil Kunde nie auf name
+	// protected in private geï¿½ndert, weil Kunde nie auf name
 	// direkt zugreift. Der Name von Kunde wird in Person gespeichert.
 	private String name;
 	
