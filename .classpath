@@ -7,5 +7,6 @@
 	<classpathentry kind="src" path="Brüche"/>
 	<classpathentry kind="src" path="BMI"/>
 	<classpathentry kind="src" path="Passwortklasse"/>
+	<classpathentry kind="src" path="Kopffitness"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
