@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die Schule</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* In-Line CSS */
+        body {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf unserer Schulseite</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Startseite</a></li>
+                <li><a href="#">Über uns</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Verschiedene Schriftarten und Größen</h2>
+        <p>Dies ist ein Absatz mit <span style="font-family: Arial; font-size: 20px;">verschiedenen Schriftarten und Größen</span>.</p>
+    </section>
+
+    <section>
+        <h2>Listen</h2>
+        <ul>
+            <li>Element 1</li>
+            <li>Element 2
+                <ul>
+                    <li>Unterpunkt 1</li>
+                    <li>Unterpunkt 2</li>
+                </ul>
+            </li>
+            <li>Element 3</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Bilder</h2>
+        <img src="bilder/bild1.jpg" alt="Bild 1" width="200">
+        <img src="bilder/bild2.jpg" alt="Bild 2" width="300">
+    </section>
+
+    <section>
+        <h2>Videos und Audiodateien</h2>
+        <video controls>
+            <source src="video/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <audio controls>
+            <source src="audio/audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+		<iframe width="840" height="560" src="https://www.youtube.com/embed/w_kTHKDPkrw" title="TG: Mechatronik" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+	<section>
+		<h2>Formular</h2>
+		<form method="post" action="mailto:info@jdsr.de">
+		Ich möchte
+		<select name="Grund" size=1>
+		<option> Informationsmaterial zur Schule erhalten
+		<option> Einen Termin vereinbaren
+		<option> Mich für heute krank melden
+		</select>
+		
+		<input type="submit" value="Abschicken">
+		<input type="reset" value="Löschen">
+		</form>
+	</section>
+
+    <footer>
+        <p>&copy; 2024 Meine Webseite</p>
+    </footer>
+</body>
+</html>
