@@ -8,8 +8,11 @@ public class BruchTest {
 		Bruch bruchZwei = new Bruch(14, -6);
 		System.out.print(bruchEins + " * " + bruchZwei + " = ");
 		bruchEins.multipliziereMit(bruchZwei);
+		System.out.println();
 		System.out.println("bruchEins: " + bruchEins);
 		System.out.println("bruchZwei: " + bruchZwei);
+		System.out.print(bruchEins + " * " + bruchZwei + " = ");
+		System.out.println();
 		Bruch bruchDrei = Bruch.multipliziereMit(bruchEins, bruchZwei);
 		System.out.println("bruchDrei: " + bruchDrei);
 	}

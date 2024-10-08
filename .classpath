@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" />
-	<classpathentry kind="src" path="Punkte" />
-	<classpathentry kind="src" path="Vererbung" />
-	<classpathentry kind="src" path="Zugriffsmodifizierer" />
-	<classpathentry kind="src" path="Brüche" />
-	<classpathentry kind="src" path="BMI" />
-	<classpathentry kind="src" path="Passwortklasse" />
-	<classpathentry kind="src" path="Kopffitness" />
-	<classpathentry kind="output" path="bin" />
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Punkte"/>
+	<classpathentry kind="src" path="Vererbung"/>
+	<classpathentry kind="src" path="Zugriffsmodifizierer"/>
+	<classpathentry kind="src" path="Brüche"/>
+	<classpathentry kind="src" path="BMI"/>
+	<classpathentry kind="src" path="Passwortklasse"/>
+	<classpathentry kind="src" path="Kopffitness"/>
+	<classpathentry kind="src" path="Fernbedienung"/>
+	<classpathentry kind="src" path="Assoziation"/>
+	<classpathentry kind="src" path="MQTT"/>
+	<classpathentry kind="lib" path="C:/Users/danie/eclipse/java-2023-09/eclipse/configuration/org.eclipse.paho-releases/org.eclipse.paho.client.mqttv3-1.2.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
