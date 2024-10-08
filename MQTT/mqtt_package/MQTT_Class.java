@@ -13,7 +13,7 @@ public class MQTT_Class {
 		String topic = "MQTT Examples";
 		String content = "Message from MqttPublishSample";
 		int qos = 2;
-		String broker = "tcp://mqtt.eclipseprojects.io:1883";
+		String broker = "tcp://test.mosquitto.org:1883";
 		String clientId = "JavaSample";
 		MemoryPersistence persistence = new MemoryPersistence();
 

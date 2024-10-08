@@ -8,11 +8,10 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
-public class MQTT_Subscriber {
+public class MQTT_Subscriber_MultiTopics {
 
     public static void main(String[] args) {
 
-        String topic = "MQTT Examples";
         String broker = "tcp://test.mosquitto.org:1883";
         String clientId = "JavaSampleSubscriber";
         MemoryPersistence persistence = new MemoryPersistence();
@@ -22,7 +21,6 @@ public class MQTT_Subscriber {
             MqttConnectOptions connOpts = new MqttConnectOptions();
             connOpts.setCleanSession(true);
 
-            // Set a callback function to handle received messages
             sampleClient.setCallback(new MqttCallback() {
 
                 @Override
@@ -37,7 +35,7 @@ public class MQTT_Subscriber {
 
                 @Override
                 public void deliveryComplete(IMqttDeliveryToken token) {
-                    // Not relevant for subscribers, only for publishers
+                    // Nicht relevant für den Subscriber
                 }
             });
 
@@ -45,11 +43,14 @@ public class MQTT_Subscriber {
             sampleClient.connect(connOpts);
             System.out.println("Connected");
 
-            // Subscribe to the topic
-            sampleClient.subscribe(topic);
-            System.out.println("Subscribed to topic: " + topic);
+            // Mehrere Themen abonnieren
+            String[] topics = {"MQTT Examples", "MQTT/LWT"};
+            int[] qosLevels = {2, 2};  // Du kannst unterschiedliche QoS-Stufen angeben
 
-            // Keep the subscriber alive to listen for messages
+            // Abonniere die Themen
+            sampleClient.subscribe(topics, qosLevels);
+            System.out.println("Subscribed to topics: MQTT Examples & MQTT/LWT");
+
         } catch (MqttException me) {
             System.out.println("reason " + me.getReasonCode());
             System.out.println("msg " + me.getMessage());
